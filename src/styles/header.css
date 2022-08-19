@@ -1,0 +1,78 @@
+nav{
+    position: fixed;
+    background-color: rgba(52, 52, 52, 0.489);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+    height:180px;
+}
+.logo{
+    height: 180px;
+    width: 100%;
+}
+.logo img{
+    margin: 20px;
+    height: 100%;
+    width: 50%;
+}
+.home{
+    align-self: center;
+    justify-self: end;
+}
+.home a{
+    text-decoration: none;
+    color: rgb(239, 191, 17);
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.home a:hover{
+    color: rgb(91, 1, 1);
+    transition: .5s;
+}
+.contact{
+    align-self: center;
+    justify-self: start;
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(239, 191, 17);
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+.contact a:hover{
+    color: rgb(91, 1, 1);
+    transition: .5s;
+}
+@media screen and (max-width: 1280px){
+    .nav{
+        height: 100px;
+    }
+    .logo{
+        height: 80px;
+    }
+    .logo img{
+        height: 100%;
+        width: 100%;
+    }
+    .home{
+        align-self: flex-start;
+        justify-self: end;
+        margin-top: 10px;
+    }
+    .home a{
+        font-size: .9rem;
+    }
+    .contact{
+        align-self: flex-start;
+        justify-self: start;
+        margin-top: 10px;
+    }
+    .contact a{
+        font-size: .9rem;
+    }
+}

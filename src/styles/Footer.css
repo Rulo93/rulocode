@@ -1,0 +1,47 @@
+.footer-container{
+    position: relative;
+    background-color: #000000;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.sociales{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.copy{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: rgb(250, 248, 248);
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+}
+.whats{
+    color: rgb(250, 248, 248);
+}
+.whats:hover{
+    color: greenyellow;
+    transition: .5s;
+}
+.face{
+    color: rgb(250, 248, 248);
+}
+.face:hover{
+    color: rgb(0, 62, 187);
+    transition: .5s;
+}
+.insta{
+    color: rgb(250, 248, 248);
+}
+.insta:hover{
+    color: rgb(80, 30, 245);
+    transition: .5s;
+}
+
+@media (max-width: 1280px){
+    .copy p{
+        font-size: .5rem;
+    }
+}

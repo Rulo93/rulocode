@@ -1,0 +1,33 @@
+.principal{
+    background-image: url(src/assets/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;    
+}
+.intro{
+    color: rgb(250, 248, 248);
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+    font-family: 'Kanit', sans-serif;
+    width: 40%;
+    margin-top: 280px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    
+    align-self: flex-end;
+    border-radius: 40px;
+    box-shadow: -5px 5px 40px rgba(10, 10, 10, 0.5);
+}
+@media screen and (max-width: 1280px){
+    .intro h1{
+        font-size: .7rem;
+    }
+}
